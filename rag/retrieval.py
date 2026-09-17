@@ -1,4 +1,4 @@
-from config import collection
+from .config import collection
 
 # Query Function to get the most relevant chunks
 def query_documents(questions, n_results=3):

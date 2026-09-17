@@ -1,7 +1,7 @@
-from util import load_documents
-from chunking import split_text
-from embedding import get_openai_embedding 
-from config import collection
+from .util import load_documents
+from .chunking import split_text
+from .embedding import get_openai_embedding 
+from .config import collection
 
 ''' 
 This is the ingestion pipeline for learning the knowledge

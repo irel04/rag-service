@@ -1,4 +1,4 @@
-from config import openai_client, embedding_functions, embedding_model, collection
+from .config import openai_client, embedding_model
 
 # Create a function to generate embedding for each chunk using openai
 def get_openai_embedding(text: str):
